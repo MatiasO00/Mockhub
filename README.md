@@ -1,2 +1,2 @@
 # Mockhub
-A great hub to much interviews
+A great hub to mock interviews
