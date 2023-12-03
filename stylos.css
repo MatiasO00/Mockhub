@@ -5,14 +5,28 @@ body {
     box-sizing: border-box;
 }
 
+
+
 #header {
-    background-color: #000;
-    color: #fff;
-    padding: 10px;
-    text-align: center;
-    margin: 20px;
+    background-color: black;
+    border: 2px solid orange;
+    border-radius: 10px;
+    padding: 50px;
     font-family: 'Times New Roman', Times, serif;
-}
+  }
+  
+  /* Estilo del título h1 */
+  #header h1 {
+    color: orange;
+    text-align: left;
+    margin: 0; /* Elimina el margen predeterminado del h1 */
+  }
+  
+  /* Estilo del subtítulo p */
+  #header p {
+    color: gray;
+    margin-top: 5px; /* Agrega un pequeño espacio entre h1 y p */
+  }
 
 #nav {
     display: flex;
